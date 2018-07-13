@@ -1,12 +1,39 @@
 # [REACT] Capstone Project Planning
 
-#### React app for a bar to track kegs. 07/13/2018
+#### React app for a car dealership website. 07/13/2018
 
 #### By **Azamat Bekmuratov**
 
 ## Description
 
-This is React ad website for selling new and used cars. People who wants to sell their car, put an ad with details of the car they want to sell.
+This is React car dealership website for selling new and used cars. As an owner I want to be able to add car into the list making available for customers to see them.
+
+<h3> The Layout of the Project </h3>
+<p align="center">
+  <strong>Component structure of Car Dealership website project </strong>
+  <img src =  width=700>
+  <br>
+</p>
+
+## Current features:
+
+* There is a list of all available cars. Each car has its make, model, model year, price, mileage(odometer), transmission, type, condition and color.
+
+* There are search bar and filter to list cars according to customer preferences.
+
+* There is a form where a new car for sale can be added to the list.
+
+## Future features:
+
+* As an admin, I want the option to edit a car's properties after entering them just in case I make a mistake.
+
+* As an admin, I want to be able to click a button to update car's status to 'sold'.
+
+* As an admin, I want to be able to delete car from the list.
+
+* As a client, I want to have cars prices to be color-coded for easy readability.
+
+* As a patron, I want to see new cars separately from used cars
 
 ## Setup/Installation Requirements
 
