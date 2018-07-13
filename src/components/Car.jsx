@@ -24,14 +24,10 @@ function Car(props){
           background-color: pink;
         }
       `}</style>
-     <h3>{props.make} {props.model}, {props.modelYear}</h3>
+     <h3>{props.make} {props.model}</h3>
      <div>
-       <p><strong>Mileage: </strong><em>{props.mileage}</em></p>
-       <p><strong>Tranmission: </strong><em>{props.transmission}</em></p>
-       <p><strong>Type: </strong><em>{props.type}</em></p>
+       <p><strong>year: </strong><em>${props.modelYear}</em></p>
        <p><strong>Price: </strong><em>${props.price}</em></p>
-       <p><strong>Color: </strong><em>{props.color}</em></p>
-       <p><strong>Condition: </strong><em>{props.condition}</em></p>
        <hr/>
      </div>
     </div>
