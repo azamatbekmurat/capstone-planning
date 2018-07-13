@@ -11,7 +11,7 @@ This is React car dealership website for selling new and used cars. As an owner 
 <h3> The Layout of the Project </h3>
 <p align="center">
   <strong>Component structure of Car Dealership website project </strong>
-  <img src =  width=700>
+  <img src = https://github.com/azamatbekmurat/capstone-planning/blob/master/src/assets/images/car_project.jpg?raw=true" width=700>
   <br>
 </p>
 
