@@ -18,7 +18,7 @@ function Car(props){
     <div>
       <style jsx global>{`
         .color-toggle {
-          background-color: #a7c3f2;
+          background-color: #blue;
         }
         .color-toggle:hover {
           background-color: pink;
