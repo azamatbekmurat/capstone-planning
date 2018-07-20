@@ -10,8 +10,8 @@ function Car(props){
     const action = {
       type: c.SELECT_CAR,
       carId: carId
-    };
-    dispatch(action);
+    }
+    dispatch(action)
   }
 
   const carInformation =
@@ -24,12 +24,12 @@ function Car(props){
           background-color: pink;
         }
       `}</style>
-     <h3>{props.make} {props.model}</h3>
-     <div>
-       <p><strong>year: </strong><em>${props.modelYear}</em></p>
-       <p><strong>Price: </strong><em>${props.price}</em></p>
-       <hr/>
-     </div>
+      <h3>{props.make} {props.model}</h3>
+      <div>
+        <p><strong>year: </strong><em>${props.modelYear}</em></p>
+        <p><strong>Price: </strong><em>${props.price}</em></p>
+        <hr/>
+      </div>
     </div>
   if (props.currentRouterPath === '/admin'){
     return (
