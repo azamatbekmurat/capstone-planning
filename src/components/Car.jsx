@@ -26,7 +26,7 @@ function Car(props){
       `}</style>
       <h3>{props.make} {props.model}</h3>
       <div>
-        <p><strong>year: </strong><em>${props.modelYear}</em></p>
+        <p><strong>Year: </strong><em>${props.modelYear}</em></p>
         <p><strong>Price: </strong><em>${props.price}</em></p>
         <hr/>
       </div>
@@ -53,12 +53,11 @@ Car.propTypes = {
   price: PropTypes.string,
   mileage: PropTypes.string.isRequired,
   transmission: PropTypes.string,
-  type: PropTypes.string,
+  trunkType: PropTypes.string,
   condition: PropTypes.string,
   color: PropTypes.string,
   carId: PropTypes.string,isRequired,
-  currentRouterPath: PropTypes.string,
-  onCarSelection: PropTypes.func
+  currentRouterPath: PropTypes.string
 }
 
 export default connect()(Car)

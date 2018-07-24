@@ -8,10 +8,15 @@ function CarList(props){
       <hr/>
       {Object.keys(props.carList).map(function(carId) {
         var car = props.carList[carId]
-        return <Car names={car.names}
-          location={car.location}
-          issue={car.issue}
-          formattedWaitTime={car.formattedWaitTime}
+        return <Car make={car.make}
+          model={car.model}
+          modelYear={car.modelYear}
+          price={car.price}
+          mileage={car.mileage}
+          transmission={car.transmission}
+          trunkType={car.trunkType}
+          condition={car.condition}
+          color={car.color}
           currentRouterPath={props.currentRouterPath}
           key={carId}
           carId={carId} />
