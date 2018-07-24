@@ -2,24 +2,28 @@ import c from './../constants'
 
 export default (state = {}, action) => {
   let newState
-  const { names, location, issue, timeOpen, id, formattedWaitTime } = action ///// add all valuess 
+  const { make, model, modelYear, price, mileage, transmission, trunkType, condition, color, id } = action
 
   switch (action.type) {
   case c.ADD_CAR:
     newState = Object.assign({}, state, {
       [id]: {
-        names: names,
-        location: location,
-        issue: issue,
-        timeOpen: timeOpen,
-        id: id,
-        formattedWaitTime: formattedWaitTime
+        make: make,
+        model: model,
+        modelYear: modelYear,
+        price: price,
+        mileage: mileage,
+        transmission: transmission,
+        trunkType: trunkType,
+        condition: condition,
+        color: color,
+        id: id
       }
     })
     return newState
 
   case c.UPDATE_TIME:
-    const newCar= Object.assign({}, state[id], {formattedWaitTime})
+    const newCar= Object.assign({}, state[id])
     newState = Object.assign({}, state, {
       [id]: newCar
     })
