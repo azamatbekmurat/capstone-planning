@@ -26,7 +26,7 @@ function Car(props){
       `}</style>
       <h3>{props.make} {props.model}</h3>
       <div>
-        <p><strong>Year: </strong><em>${props.modelYear}</em></p>
+        <p><strong>Year: </strong><em>{props.modelYear}</em></p>
         <p><strong>Price: </strong><em>${props.price}</em></p>
         <hr/>
       </div>
@@ -50,13 +50,13 @@ Car.propTypes = {
   make: PropTypes.string.isRequired,
   model: PropTypes.string.isRequired,
   modelYear: PropTypes.string,
-  price: PropTypes.string,
+  price: PropTypes.string.isRequired,
   mileage: PropTypes.string.isRequired,
   transmission: PropTypes.string,
   trunkType: PropTypes.string,
   condition: PropTypes.string,
   color: PropTypes.string,
-  carId: PropTypes.string,isRequired,
+  carId: PropTypes.string.isRequired,
   currentRouterPath: PropTypes.string
 }
 

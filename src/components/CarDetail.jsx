@@ -12,7 +12,7 @@ function CarDetail(props){
         <p><strong>Transmission: </strong><em>{props.selectedCar.transmission}</em></p>
         <p><strong>Type of a car: </strong><em>{props.selectedCar.type}</em></p>
         <p><strong>Condition: </strong><em>{props.selectedCar.condition}</em></p>
-        <p><strong>Color: </strong><em>${props.selectedCar.Color}</em></p>
+        <p><strong>Color: </strong><em>{props.selectedCar.color}</em></p>
       </div>
     </div>
   )
